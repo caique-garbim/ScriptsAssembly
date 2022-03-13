@@ -17,7 +17,7 @@ section .data ;VARIAVEIS
 section .text
 
 _main:
-    push 0 ;Parametro do tipo da Message Box
+    push 0 ;PARAMETRO DO TIPO DA MESSAGE BOX
     push titulo
     push texto
     push 0
