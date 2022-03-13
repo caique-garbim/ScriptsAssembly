@@ -4,4 +4,4 @@ Assembly ou linguagem de montagem é uma notação legível por humanos para o c
 
 ##
 
-Este repositório foi criado com o objetivo de armazenar scripts didáticos em Assembly.
+Este repositório foi criado com o objetivo de armazenar scripts didáticos em Assembly na sintaxe Intel.
