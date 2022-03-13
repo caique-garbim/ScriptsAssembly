@@ -26,3 +26,9 @@ _main:
     push tipo ;Abrir
     push 0
     call _ShellExecuteA
+
+; +-----------------------------------------------------------------------------------------+
+; |                                   ASSEMBLER + LINKER                                    |
+; | nasm -f win32 windows_api_shellexecute.asm                                              |
+; | golink /entry _main windows_api_shellexecute.obj Shell32.dll /mix                       |
+; +-----------------------------------------------------------------------------------------+
