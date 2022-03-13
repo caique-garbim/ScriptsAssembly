@@ -19,11 +19,11 @@ section .data ;VARIAVEIS
 section .text
 
 _main:
-    push 0 ;Janela oculta
+    push 0 ;JANELA OCULTA
     push 0
-    push comando ;Comando definido na variavel
-    push programa ;Programa definido na variavel, no caso, o CMD
-    push tipo ;Abrir
+    push comando ;COMANDO DEFINIDO NA VARIAVEL
+    push programa ;PROGRAMA DEFINIDO NA VARIAVEL, NO CASO, O CMD
+    push tipo ;ABRIR
     push 0
     call _ShellExecuteA
 
