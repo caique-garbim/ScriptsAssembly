@@ -22,3 +22,9 @@ _main:
     push texto
     push 0
     call _MessageBoxA
+
+; +------------------------------------------------------------------------------------+
+; |                               ASSEMBLER + LINKER                                   |
+; | nasm -f win32 windows_api_message_box.asm                                          |
+; | golink /console /entry _main windows_api_message_box.obj User32.dll /mix           |
+; +------------------------------------------------------------------------------------+
